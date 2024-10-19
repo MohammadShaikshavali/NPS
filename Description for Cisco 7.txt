@@ -1,0 +1,22 @@
+Devices:
+
+Routers (Router0 and Router1): These devices are responsible for routing packets between different networks. They connect multiple networks and determine the best path for data to travel.
+Switches (Switch and Switch1): These devices are used to connect multiple devices within the same network. They facilitate communication between the connected devices.
+PCs (PC0, PC1, PC2, PC3): These represent end-user devices, such as computers or laptops, that can connect to the network to access resources.
+Network Segments:
+
+192.168.1.0/24: This network is connected to Router0 and Router1. It includes devices Router0, Router1, and the devices connected to Switch.
+192.168.2.0/24: This network is connected to Switch. It includes devices PC0, PC1, and PC2.
+192.168.3.0/24: This network is connected to Switch1. It includes devices PC3 and Switch1.
+Connections:
+
+Router0 and Router1: These routers are connected using a serial link, indicated by the dashed line. This connection allows communication between the two networks.
+Switch and Router0: The switch is connected to Router0, providing access to the 192.168.1.0/24 network.
+Switch and Router1: The switch is connected to Router1, providing access to the 192.168.1.0/24 network.
+Switch and PC0, PC1, PC2: These PCs are connected to the switch, allowing them to communicate within the 192.168.2.0/24 network.
+Switch1 and PC3: PC3 is connected to Switch1, allowing it to communicate within the 192.168.3.0/24 network.
+Overall Functionality:
+
+This network topology allows for communication between devices in different networks. For example, a device on the 192.168.2.0/24 network can communicate with a device on the 192.168.3.0/24 network by sending packets through the routers and switches. The routers determine the best path for the packets to take based on their routing tables.
+
+This network topology is a basic example, and more complex networks can be created using Cisco Packet Tracer to simulate various scenarios and configurations.
